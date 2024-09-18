@@ -1,6 +1,7 @@
 ########################################
 # Name:
 # Collaborators:
+# If you consulted AI, link to transcript: 
 # Estimated time spent (hr):
 ########################################
 

@@ -1,9 +1,8 @@
 # Problem Set 3
 
-Due the night of September 25th at 10pm
 
 ## Instructions
-The homework pdf has all the basic instructions, but here are some additional guidelines:
+The homework guide has all the basic instructions, but here are some additional guidelines:
  - [ ] Code for Problem 1 should be done in the `Prob1.py` file already in the repository
  - [ ] Code for Problem 2 should be done in the `Prob2.py` file already in the repository. 
  - [ ] Code for Problem 3 should be done in the `Prob3.py` file already in the repository. 
