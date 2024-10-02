@@ -91,6 +91,13 @@ class Test_Prob3:
             student = Prob3.to_obenglobish(w)
             assert student == s, f"{w} translated to {student} but should have been {s}."
 
+    def test_different_amts_of_obs(self):
+        words = ["box", "turkey", "amazing", "recommended"]
+        sols = ["bobox", "toburkeyobey", "obamobazobing", "robecobommobendobed"]
+        for w,s in zip(words, sols):
+            student = Prob3.to_obenglobish(w)
+            assert student == s, f"{w} translated to {student} but should have been {s}."
+
 
 
 
