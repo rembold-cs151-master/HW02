@@ -53,8 +53,9 @@ class Test_Prob2:
         inputs = ["single", "repeating", "eerie", "shiny", "dead", "wheat", "putty"]
         sols = [False, True, True, False, True, False, True]
         for i,o in zip(inputs, sols):
-            assert Prob2.contains_repeated_letters(i) == o, \
-                f"Your function should return {o} for the word {i}, but it is not!"
+            res = Prob2.contains_repeated_letters(i)
+            assert res == o, \
+                f"Your function should return {o} for the word {i}, but it instead returns {res}"
 
     def test_longest_no_repeats(self):
         out = Prob2.longest_no_repeats()
@@ -93,7 +94,7 @@ class Test_Prob3:
 
     def test_different_amts_of_obs(self):
         words = ["box", "turkey", "amazing", "recommended"]
-        sols = ["bobox", "toburkeyobey", "obamobazobing", "robecobommobendobed"]
+        sols = ["bobox", "toburkobey", "obamobazobing", "robecobommobendobed"]
         for w,s in zip(words, sols):
             student = Prob3.to_obenglobish(w)
             assert student == s, f"{w} translated to {student} but should have been {s}."
