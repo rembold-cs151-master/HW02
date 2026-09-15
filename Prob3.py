@@ -5,6 +5,8 @@
 # Estimated time spent (hr):
 ##################################################
 
+import run_journal
+
 def to_obenglobish(word):
     """ Converts an English word into its Obenglobish equivalent.
 
@@ -13,7 +15,7 @@ def to_obenglobish(word):
     Outputs:
         (string): the Obenglobish translation of the word
     """
-    pass # Add your code below and remove this pass!
+    # Add your code below here!
 
 
 

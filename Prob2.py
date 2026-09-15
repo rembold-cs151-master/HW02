@@ -5,7 +5,9 @@
 # Estimated time spent (hr):
 #######################################
 
+import run_journal
 from english import ENGLISH_WORDS
+
 
 
 # Part A
